@@ -29,7 +29,7 @@ spec:
             limits: 
               cpu: 0.3
           ports:
-          - containerPort: 7800
-            name: http1
+          - containerPort: 7843
+            name: https
             protocol: TCP
 
