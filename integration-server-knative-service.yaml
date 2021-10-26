@@ -30,6 +30,6 @@ spec:
               cpu: 0.3
           ports:
           - containerPort: 7843
-            name: https
+            name: http1
             protocol: TCP
 
