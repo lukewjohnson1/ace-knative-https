@@ -17,7 +17,7 @@ spec:
      ENV DESIGNER_FLOWS_OPERATION_MODE=disabled
      ENV LOG_FORMAT=basic
      ENV LICENSE=accept
-     COPY HTTPSECHO.bar /home/aceuser/initial-config/bars/HTTPSEcho.bar
+     COPY HTTPSEcho.bar /home/aceuser/initial-config/bars/HTTPSEcho.bar
  strategy:
    type: Docker
    dockerStrategy:
