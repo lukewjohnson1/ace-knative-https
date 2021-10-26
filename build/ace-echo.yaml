@@ -1,9 +1,9 @@
 kind: Secret
 apiVersion: v1
 metadata:
-  selfLink: /api/v1/namespaces/ace-serverless/secrets/ace-echo
+  selfLink: /api/v1/namespaces/ace-serverless/secrets/ace-echo-0001
   resourceVersion: '10210818'
-  name: ace-echo
+  name: ace-echo-00001
   uid: fcea23cb-fd98-4cbb-8d96-950c67dcb1ac
   creationTimestamp: '2021-10-25T15:26:41Z'
   managedFields:
@@ -22,7 +22,7 @@ metadata:
   ownerReferences:
     - apiVersion: v1
       kind: Service
-      name: ace-echo
+      name: ace-echo-00001
       uid: 65c5d633-3e2e-4b7d-9fe3-c0b7c552db5d
 data:
   tls.crt: >-
