@@ -27,6 +27,7 @@ spec:
        namespace: ace-serverless
      pullSecret:
        name: cp.icr.io
+       name: ace-echo
  output:
    to:
      kind: ImageStreamTag

@@ -1,18 +1,13 @@
 kind: Secret
 apiVersion: v1
 metadata:
-  annotations:
-    service.alpha.openshift.io/expiry: '2023-10-25T15:26:41Z'
-    service.beta.openshift.io/expiry: '2023-10-25T15:26:41Z'
-    service.beta.openshift.io/originating-service-name: ace-echo
-    service.beta.openshift.io/originating-service-uid: 65c5d633-3e2e-4b7d-9fe3-c0b7c552db5d
   selfLink: /api/v1/namespaces/ace-serverless/secrets/ace-echo
   resourceVersion: '10210818'
   name: ace-echo
   uid: fcea23cb-fd98-4cbb-8d96-950c67dcb1ac
   creationTimestamp: '2021-10-25T15:26:41Z'
   managedFields:
-    - manager: service-ca-operator
+    - manager: oc
       operation: Update
       apiVersion: v1
       time: '2021-10-25T15:26:41Z'
@@ -22,21 +17,6 @@ metadata:
           .: {}
           'f:tls.crt': {}
           'f:tls.key': {}
-        'f:metadata':
-          'f:annotations':
-            .: {}
-            'f:service.alpha.openshift.io/expiry': {}
-            'f:service.beta.openshift.io/expiry': {}
-            'f:service.beta.openshift.io/originating-service-name': {}
-            'f:service.beta.openshift.io/originating-service-uid': {}
-          'f:ownerReferences':
-            .: {}
-            'k:{"uid":"65c5d633-3e2e-4b7d-9fe3-c0b7c552db5d"}':
-              .: {}
-              'f:apiVersion': {}
-              'f:kind': {}
-              'f:name': {}
-              'f:uid': {}
         'f:type': {}
   namespace: ace-serverless
   ownerReferences:
