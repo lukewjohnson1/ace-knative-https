@@ -9,7 +9,7 @@ spec:
  triggers: []
  source:
    type: dockerfile
-   dockerfile: 
+   dockerfile: |
      FROM ace-server-prod:latest-amd64
      ENV ACE_ENABLE_METRICS=false
      ENV ACE_ENABLE_OPEN_TRACING=false
